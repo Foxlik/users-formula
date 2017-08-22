@@ -1,4 +1,4 @@
-{%- raw -%}
+{%- raw %}
 " URL: http://vim.wikia.com/wiki/Example_vimrc
 " Authors: http://vim.wikia.com/wiki/Vim_on_Freenode
 " Description: A minimal, but feature rich, example .vimrc. If you are a
@@ -14,7 +14,7 @@
 
 " Set 'nocompatible' to ward off unexpected things that your distro might
 " have made, as well as sanely reset options when re-sourcing .vimrc
-{%- endraw -%}
+{%- endraw %}
 set nocompatible
 
 " Attempt to determine the type of a file based on its name and possibly its
@@ -25,7 +25,7 @@ filetype indent plugin on
 " Enable syntax highlighting
 syntax on
 
-{%- raw -%}
+{%- raw %}
 "------------------------------------------------------------
 " Must have options {{{1
 "
@@ -44,7 +44,7 @@ syntax on
 " for keeping undo history after closing Vim entirely. Vim will complain if you
 " try to quit without saving, and swap files will keep you safe if your computer
 " crashes.
-{%- endraw -%}
+{%- endraw %}
 set hidden
 
 " Note that not everyone likes working this way (with the hidden option).
@@ -68,7 +68,7 @@ set hlsearch
 " script, <http://www.vim.org/scripts/script.php?script_id=1876>.
 " set nomodeline
 
-{%- raw -%}
+{%- raw %}
 "------------------------------------------------------------
 " Usability options {{{1
 "
@@ -78,7 +78,7 @@ set hlsearch
 " use is very much a personal preference, but they are harmless.
 
 " Use case insensitive search, except when using capital letters
-{%- endraw -%}
+{%- endraw %}
 set ignorecase
 set smartcase
 
@@ -129,7 +129,7 @@ set notimeout ttimeout ttimeoutlen=200
 " Use <F11> to toggle between 'paste' and 'nopaste'
 set pastetoggle=<F11>
 
-{%- raw -%}
+{%- raw %}
 "------------------------------------------------------------
 " Indentation options {{{1
 "
@@ -147,7 +147,7 @@ set expandtab
 "set shiftwidth=4
 "set tabstop=4
 
-{%- raw -%}
+{%- raw %}
 "------------------------------------------------------------
 " Mappings {{{1
 "
@@ -155,7 +155,7 @@ set expandtab
 
 " Map Y to act like D and C, i.e. to yank until EOL, rather than act as yy,
 " which is the default
-{%- endraw -%}
+{%- endraw %}
 map Y y$
 
 " Map <C-L> (redraw screen) to also turn off search highlighting until the
